@@ -1,0 +1,25 @@
+{
+  "name": "somilka.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "echo --Local server-- && live-server --watch=.",
+    "launcher": "npm launcher",
+    "help": "npm-package-user-scripts-list",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Somilka/somilka.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Somilka/somilka.github.io/issues"
+  },
+  "homepage": "https://github.com/Somilka/somilka.github.io#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
