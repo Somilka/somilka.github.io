@@ -1,20 +1,18 @@
-* {
 
-}
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
+
 body {
-    background-color: #1C1C1C;
     display: flex;
     flex-direction: column;
     justify-content:center;
 }
 .title {
     margin: auto;
-    font-family: bahnschrift;
+    font-family: 'Cuprum', Bold;
     text-align: center;
     /* width: 100px; */
 }
@@ -35,15 +33,36 @@ body {
 .low {
     font-family: Pristina;
     position: absolute;
-    bottom: 0px;
+    bottom: 15px;
     right: 30px;
     color: white;
     /* vertical-align: bottom; */
 }
 
 .red {
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
     width: 20px;
     height: 20px;
     color: red;
+    background-color: #A52A2A;
+    display: inline-block;
+}
 
+.theme1 {
+    background-color: #1C1C1C;
+}
+
+.theme2 {
+    background-color: #A52A2A;
+}
+
+.theme2 .red {
+    background-color: #1C1C1C;
+}
+
+.theme1 .red {
+    background-color: #A52A2A;
 }
