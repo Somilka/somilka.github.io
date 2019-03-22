@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content:center;
 }
+
 .title {
     margin: auto;
     font-family: 'Cuprum', Bold;
@@ -17,9 +18,36 @@ body {
     /* width: 100px; */
 }
 
-.title-inset {
+.title-insetOne {
+    border-radius: 15px;
     border: 1px solid white;
     color: white;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.title-insetOne:hover {
+    border-radius: 15px;
+    border: 5px solid #7cffae;
+    color: #7cffae;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.title-insetTwo {
+    border: 1px solid white;
+    border-radius: 25px;
+    border-color: #7cffae;
+    color: #7cffae;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.title-insetTwo:hover {
+    border: 1px solid white;
+    border-radius: 25px;
+    border-color: black;
+    color: black;
     display: inline-block;
     padding: 5px 15px;
 }
@@ -40,7 +68,7 @@ body {
 }
 
 .red {
-    border-radius: 5px;
+    border-radius: 100px;
     position: absolute;
     top: 15px;
     right: 15px;
@@ -48,6 +76,32 @@ body {
     height: 20px;
     color: red;
     background-color: #A52A2A;
+    display: inline-block;
+}
+
+.vk {
+    border-radius: 100px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: inline-block;
+}
+
+.inst {
+    border: 0px solid black;
+    border-radius: 100px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    display: inline-block;
+}
+
+.steam {
+
+    border-radius: 100px;
+    position: absolute;
+    top: 15px;
+    left: 85px;
     display: inline-block;
 }
 
